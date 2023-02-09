@@ -40,6 +40,7 @@ CALL ANALYTICS.DAILY_CITY_METRICS_UPDATE_SP();
 ALTER TASK DAILY_CITY_METRICS_UPDATE_TASK RESUME;
 EXECUTE TASK ORDERS_UPDATE_TASK;
 
+SHOW TASKS;
 
 -- ----------------------------------------------------------------------------
 -- Step #3: Monitor tasks in Snowsight
